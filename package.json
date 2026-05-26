@@ -1,0 +1,12 @@
+{
+  "name": "archive-linear-issue",
+  "version": "0.1.0",
+  "description": "Archive Linear issues via the GraphQL API.",
+  "type": "module",
+  "bin": {
+    "archive-linear-issue": "bin/archive-linear-issue.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
