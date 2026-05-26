@@ -2,6 +2,10 @@
 
 A tiny CLI that archives Linear issues in bulk via Linear's GraphQL API.
 
+Linear's free plan caps a workspace at 250 issues, and its automatic archiver takes months to recycle old ones. This script uses the GraphQL API to archive issues on demand, freeing up slots within the cap well before that.
+
+> Built with Claude — run and tested manually.
+
 ## Requirements
 
 - Node.js ≥ 18
